@@ -6,8 +6,7 @@ jobs:
      steps:
      - checkout # from github
      - run:
-          command: |
-            set -e
+          command: 
             mkdir results
             cp site/* results
      - store_artifacts:
